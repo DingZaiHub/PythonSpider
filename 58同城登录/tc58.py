@@ -23,7 +23,6 @@ def dologin(data1):
             validcode = get_code(vcodekey)
             data1["vcodekey"] = vcodekey
             data1["validcode"] = validcode
-            dologin(data1)
         elif "需要验证手机号" in response.text:
             pattern = re.compile(r'"warnkey":"(.*?)",', re.S)
             warnkey = re.findall(pattern, response.text)[0]
