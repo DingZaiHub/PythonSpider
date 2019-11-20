@@ -9,6 +9,7 @@ def token(page, num):
 
 
 def decode_str(scHZjLUh1):
+    # JS的fromCharCode函数为Python的chr函数，JS的charCodeAt函数为Python的ord函数
     scHZjLUh1 = str(base64.b64decode(scHZjLUh1), encoding="utf-8")
     key = "nyloner"
     length = len(key)
