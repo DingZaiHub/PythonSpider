@@ -1285,7 +1285,7 @@ function encryptByDES(t) {
     var key = "e9284d45-cf2a-4e46-9367-f122413ca6b0";
     var a = CryptoJS.enc.Utf8.parse(key);
     try {
-        var s = CryptoJS.DES.encrypt(t, a, {
+        var s = CryptoJS.DES.encrypt(String(t), a, {
             mode: CryptoJS.mode.ECB,
             padding: CryptoJS.pad.Pkcs7
         })
