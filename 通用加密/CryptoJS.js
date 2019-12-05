@@ -5965,7 +5965,7 @@ CryptoJS.pad.ZeroPadding = {
 };
 // 查看CryptoJS有哪些方法，如需用到，可自行构造函数，如下
 console.log(CryptoJS)
-// 以下为AES加密
+// 如以下为AES加密，k、iv、mode、padding根据不同网站修改
 function aes(val) {
     var k = CryptoJS.enc.Utf8.parse('1234567890abcDEF');
     var iv = CryptoJS.enc.Utf8.parse('1234567890abcDEF');
