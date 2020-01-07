@@ -9,3 +9,4 @@ JS逆向实战、教程持续更新！
 
 
 ## 代码配套教程
+- [x] [【安徽省招投标】sojson.v5还原详解及练手](https://mp.weixin.qq.com/s/YOY7EUTETF9KPU8X03B6uQ)
