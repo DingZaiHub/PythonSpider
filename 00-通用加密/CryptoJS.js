@@ -1,3 +1,5 @@
+// 直接拉到最下面看方法
+
 var CryptoJS = CryptoJS || (function (Math, undefined) {
     /*
         * Local polyfil of Object.create
