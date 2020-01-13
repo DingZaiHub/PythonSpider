@@ -10,3 +10,4 @@ JS逆向实战、教程持续更新，欢迎star，求关注公众号“逆向�
 
 ## 代码配套教程
 - [x] [【安徽省招投标】sojson.v5还原详解及练手](https://mp.weixin.qq.com/s/YOY7EUTETF9KPU8X03B6uQ)
+- [x] [【合肥市房产信息平台、百变IP】面向小白之eval混淆](https://mp.weixin.qq.com/s/c_-yghD8sEqgaeLO8NfkgQ)
