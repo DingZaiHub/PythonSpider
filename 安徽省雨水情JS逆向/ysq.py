@@ -2,7 +2,6 @@
 import random
 import execjs
 import requests
-import base64
 import json
 
 
@@ -11,7 +10,7 @@ headers = {
 }
 data = {
     "name":"GetSwInfo",
-    "time":"201911061100",
+    "time":"202001171000",
     "fresh":0,
     "waterEncode":"true",
 }
@@ -28,9 +27,6 @@ data["random"] = random.random()
 url = "http://yc.wswj.net/ahsxx/service/PublicBusinessHandler.ashx"
 res = requests.post(url, data=data, headers=headers)
 data_json = res.json()["data"]
-# print(res.json()["respMsg"])
-
-result = ctx.call("resultDecode", data_json)
-result = base64.b64decode(result.encode("utf-8")).decode("utf-8")
-result = json.loads(result)
-print(result[0])  # 数据共有2000多个，这里只展示一个
+data = ctx.call("resultDecode", data_json)
+data = json.loads(data)
+print(data[:2])  # 数据共有2000多个，这里只展示两个
