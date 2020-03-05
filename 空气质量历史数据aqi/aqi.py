@@ -87,16 +87,13 @@ def get_data(data, js_code):
 encrypt_url = get_encrypt_url('北京', "201312")
 eval_str = fetch(encrypt_url, 'GET')
 js_code = get_js_code(eval_str)
-with open('111.js', 'r', encoding='utf8') as f:
+with open('aqi.js', 'r', encoding='utf8') as f:
     ctx = execjs.compile(f.read() + '\n' + js_code)
 
 param = get_param('北京', "201312", js_code)
-print('post参数:', param)
+print('post参数：', param)
 
 url = 'https://www.aqistudy.cn/historydata/api/historyapi.php'
 res = fetch(url, 'POST', data=param)
 print('返回的密文：', res)
 print('解密：', get_data(res, js_code))
-
-
-
