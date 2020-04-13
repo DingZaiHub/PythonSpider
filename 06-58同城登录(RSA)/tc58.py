@@ -8,7 +8,7 @@ def get_password(a):
     # 获取加密后的密文
     with open("tc58.js", "r") as f:
         ctx = execjs.compile(f.read())
-    password = ctx.call("aaa", a)
+    password = ctx.call("encryptString", a)
     return password
     
 
@@ -49,7 +49,7 @@ def mobile_login(mobilecode, tokencode, token):
         ('tokencode', tokencode),
         ('token', token),
         ('finger2', 'zh-CN|24|1.25|4|1536_864|1536_826|-480|1|1|1|undefined|1|unknown|Win32|unknown|3|false|false|false|false|false|0_false_false|d41d8cd98f00b204e9800998ecf8427e|86c75e61215ed0736aa38d1a4dadb102'),
-        ('fingerprint', 'iMaJiSCrQD0j5Ie2T8tinSg6oh02-zDe'),
+        ('fingerprint', 'iMaJiSCrQD0j5Ie2T8tinSg6oh02-zDe'),  # 可以写死
         ('psdk-d', 'jsdk'),
         ('psdk-v', '1.0.2'),
     )
@@ -75,6 +75,7 @@ def get_phone_code(token, codetype, mobile, warnkey, path):
     if "动态码已发送" in response.text:
         mobilecode = input("请输入手机验证码：")
         return mobilecode
+
 
 def get_params(warnkey, path):
     # 获取手机验证码时需要的参数
@@ -122,4 +123,3 @@ data = {
 }
 
 print(dologin(data))
-
