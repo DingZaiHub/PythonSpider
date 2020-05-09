@@ -63,7 +63,7 @@ WaterSecurity.prototype = {
         var result = "";
         for (var i = 0; i < tags.length; i++)
             result += content[tags[i]];
-//        result = this.utf8to16(this.base64decode(result));
+        result = this.utf8to16(this.base64decode(result));
         return result
     },
     getTagsPosition: function(data, tags) {
