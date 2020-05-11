@@ -14,3 +14,4 @@ node index.js
 ```python
 TypeError: Cannot read property 'init' of undefined
 ```
+### 实际为无法读取window.byted_acrawler对象，但node运行正常
