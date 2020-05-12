@@ -14,4 +14,6 @@ JS逆向实战、教程持续更新，欢迎star，求关注公众号“逆向�
 - [x] [【TAPD模拟登录】非常简单的AES加密练手网站](https://mp.weixin.qq.com/s/vF3P-PBZz-qkxTGJkiQONg)
 - [x] [【58同城模拟登录】RSA加密及浏览器指纹分析](https://mp.weixin.qq.com/s/kfDpGlVuUwciyhTBdyrf5A)
 - [x] [【毛毛租】AES加密，较难分析的网站](https://mp.weixin.qq.com/s/3_sRSVidVy47-ZipArbCmg)
-- [x] [ JS逆向 | 骚操作教你如何伪造浏览器环境](https://mp.weixin.qq.com/s/secmduSgSjuhbBuTrNxZkQ)
+- [x]  [ JS逆向 | 骚操作教你如何伪造浏览器环境](https://mp.weixin.qq.com/s/secmduSgSjuhbBuTrNxZkQ)
+- [x] [【透明售房网】高度混淆及浏览器指纹分析(一)](https://mp.weixin.qq.com/s/UlnVU2yGjSqSeJMOihXL4A)
+- [x] [【透明售房网】高度混淆及浏览器指纹分析(二)](https://mp.weixin.qq.com/s/m5hapF2O3SLWFhVW42qLkA)
