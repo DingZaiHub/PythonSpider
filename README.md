@@ -17,3 +17,4 @@ JS逆向实战、教程持续更新，欢迎star，求关注公众号“逆向�
 - [x] &ensp;[ JS逆向 | 骚操作教你如何伪造浏览器环境](https://mp.weixin.qq.com/s/secmduSgSjuhbBuTrNxZkQ)
 - [x] [【透明售房网】高度混淆及浏览器指纹分析(一)](https://mp.weixin.qq.com/s/UlnVU2yGjSqSeJMOihXL4A)
 - [x] [【透明售房网】高度混淆及浏览器指纹分析(二)](https://mp.weixin.qq.com/s/m5hapF2O3SLWFhVW42qLkA)
+- [x] &ensp;[ JS逆向 | ob混淆一键还原工具](https://mp.weixin.qq.com/s/KOyhktjuOaZS2GM7UDrHWw)
