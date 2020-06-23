@@ -19,3 +19,9 @@ JS逆向实战、教程持续更新，欢迎star，求关注公众号“逆向�
 - [x] [【透明售房网】高度混淆及浏览器指纹分析(二)](https://mp.weixin.qq.com/s/m5hapF2O3SLWFhVW42qLkA)
 - [x] &ensp;[ JS逆向 | ob混淆一键还原工具](https://mp.weixin.qq.com/s/KOyhktjuOaZS2GM7UDrHWw)
 - [x] &ensp;[ JS逆向 | BOSS直聘cookie分析](https://mp.weixin.qq.com/s/0B-k1-wgNVEJZQo2I0vl_Q)
+
+### 赞赏
+
+如果觉得本仓库对你有用，谢谢赞赏~
+
+![](https://imgkr.cn-bj.ufileos.com/bf55aae1-f12b-4a63-9b57-94eaf2ff9798.png)
