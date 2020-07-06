@@ -30,7 +30,8 @@ def num_replace(text):
 
 def get_index(uid):
     # 获取主页源码，uid如 102064772608
-    url = "https://www.iesdouyin.com/share/user/%s" % uid
+    url = "https://www.amemv.com/share/user/%s" % uid
+    # url = "https://www.iesdouyin.com/share/user/%s" % uid  
     try:
         res = requests.get(url, headers=headers)
         if res.status_code == 200 and "dytk: " in res.text:
